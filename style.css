@@ -33,6 +33,12 @@ body {
     font-size: 1.5rem;
 }
 
+.conteudo__primario__texto li::before {
+    content:"✔";
+    margin-right: 8px;
+    color: var(--cor-secundaria);
+}
+
 
 
 .conteudo__secundario {
