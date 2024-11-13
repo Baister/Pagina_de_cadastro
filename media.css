@@ -1,0 +1,39 @@
+@media screen and (max-width:440px) {
+    .cabecalho {
+        
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo {
+        grid-template-columns: auto;
+        align-items: center;
+        margin-top: 2.5rem;
+    }
+
+    .conteudo__primario {
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .conteudo__primario__titulo, .conteudo__primario__texto {
+        padding: 0;
+        font-size: 1.5rem;
+    }
+
+    .conteudo__caixa {
+        margin: 0;
+    }
+
+    #conteudo__secundario__texto__check {
+        padding: 0;
+    }
+
+    #botao__formulario {
+        margin-right: 50%;
+    }
+}
